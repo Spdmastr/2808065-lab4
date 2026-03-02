@@ -34,6 +34,7 @@ async function searchCountry(countryName) {
         // Update bordering countries section
     } catch (error) {
         console.error(error.message);
+        document.getElementById('error-message').textContent = "Country not found";
     } finally {
         hideLoading();
     }
