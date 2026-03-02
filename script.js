@@ -1,4 +1,3 @@
-//const searchBtn = document.getElementById("search-btn");
 const countryInput = document.getElementById("country-input");
 const countryInfo = document.getElementById("country-info");
 const bordersContainer = document.getElementById("bordering-countries");
@@ -78,7 +77,3 @@ function hideLoading() {
   spinner.style.display = "none";
 }
 
-// function showError(message) {
-//   //countryInfo.innerHTML = `<p style="color:red;">${message}</p>`;
-//   bordersContainer.innerHTML = "";
-// }

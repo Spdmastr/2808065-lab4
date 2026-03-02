@@ -27,7 +27,7 @@
     border-style: inset;
 }
 .error {
-    color: red;
+    color: tomato;
     /* Additional styling */
 }
 .hidden {
