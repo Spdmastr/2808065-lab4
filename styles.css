@@ -1,0 +1,35 @@
+.spinner {
+    /* Your styling */
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: 6px solid #ccc;        /* light outer ring */
+    border-top: 6px solid black;   /* visible spinning part */
+    border-radius: 50%;     
+    animation: spin 1s linear infinite; /* Required */
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.country-card{
+    background-color: beige;
+    border: 10px 1px solid azure;
+    padding: 10px;
+}
+.border-grid {
+    display: grid; /* or display: flex */
+    /* Additional layout properties */
+    border-width: medium;
+    border-style: inset;
+}
+.error {
+    color: red;
+    /* Additional styling */
+}
+.hidden {
+    display: none;
+}
